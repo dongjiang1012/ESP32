@@ -150,3 +150,7 @@ idf.py -p PORT flash monitor
 - `managed_components/`：组件管理器下载的依赖组件（BSP 3.0.1、LVGL 9.5.0 等，见 `main/idf_component.yml`）
 - `tmp/`：字体生成缓存、npm 缓存、手册截图等临时文件，不参与固件编译，可随时清理
 - `docs/archive/legacy-work/`：历史整理脚本、清单和 SW6306 参考图片，不参与固件编译
+
+## Pull Request 工作流
+
+功能开发应在独立分支上进行，推送到 GitHub 后创建 Pull Request，再进行代码审查和合并。
