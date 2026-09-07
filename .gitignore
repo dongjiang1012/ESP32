@@ -1,0 +1,18 @@
+# ESP-IDF build output and downloaded managed components
+build/
+managed_components/
+
+# Local configuration and temporary work
+sdkconfig
+sdkconfig.old
+tmp/
+.vscode/
+*.log
+
+# Generated dependencies used by local font-conversion tooling
+tools/font-converter/node_modules/
+tools/font-converter/python/
+
+# Personal documents that are unrelated to the firmware project
+董江_简历证件照_轻度修饰.png
+董江_嵌入式软件工程师_岗位定向简历.docx

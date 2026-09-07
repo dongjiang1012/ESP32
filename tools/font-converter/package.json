@@ -1,0 +1,8 @@
+{
+  "name": "sw6306-font-tools",
+  "private": true,
+  "description": "Offline LVGL Chinese font generation for the SW6306 UI",
+  "dependencies": {
+    "lv_font_conv": "^1.5.3"
+  }
+}
